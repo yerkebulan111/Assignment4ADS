@@ -10,7 +10,7 @@ This project demonstrates the implementation of key graph search algorithms in J
 
 The project uses a custom graph implementation with generic support for vertex types. It includes both weighted and unweighted directed graphs, and allows pathfinding between cities in Kazakhstan using different search strategies.
 
-### Key Classes:
+### Classes:
 
 - `Vertex<T>`: Represents a node in the graph.
 - `Edge<T>`: Represents an edge (used only in weighted graphs).
@@ -55,5 +55,14 @@ The graphs model connections between the following cities:
 
 The `Main` class runs three different search strategies to find a path from **Astana** to **Almaty**, printing the route found by each algorithm.
 
+### Output
 
+DFS:
+Astana -> Karaganda -> Balkash -> Almaty -> 
+----------------------
+BFS:
+Astana -> Karaganda -> Balkash -> Almaty -> 
+----------------------
+Dijkstra:
+Astana -> Karaganda -> Balkash -> Almaty ->
 
