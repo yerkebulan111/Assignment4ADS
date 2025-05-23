@@ -58,11 +58,16 @@ The `Main` class runs three different search strategies to find a path from **As
 ### Output
 
 DFS:
-Astana -> Karaganda -> Balkash -> Almaty -> 
-----------------------
+Astana -> Karaganda -> Balkash -> Almaty ->
+_______________________________________________
+
 BFS:
 Astana -> Karaganda -> Balkash -> Almaty -> 
-----------------------
+_______________________________________________
+
 Dijkstra:
 Astana -> Karaganda -> Balkash -> Almaty ->
+_______________________________________________
 
+
+Process finished with exit code 0
